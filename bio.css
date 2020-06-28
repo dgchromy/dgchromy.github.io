@@ -1,0 +1,91 @@
+header{
+    box-sizing: border-box;
+    background-color:rgba(245, 245, 245, 0.673); 
+    border-style: hidden;
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    opacity: .9;
+    
+
+}
+
+ .navbar-navbar-expand-lg-navbar-light-bg-light{ 
+    background-color:rgba(245, 245, 245, 0.673);
+    border-color:rgba(245, 245, 245, 0.673); 
+    border-style: solid;
+    color: black; 
+    margin-right: 30px;
+   
+   
+
+}
+.navbar-toggler-icon{
+    margin-right: 3rem;
+}
+.navbar-nav{
+
+    box-sizing: border-box;
+    background-color:rgba(245, 245, 245, 0.673);
+    border-style: hidden;
+    opacity: .9px;
+   
+}
+
+.bg-light {
+    background-color: rgba(245, 245, 245, 0.673)!important;
+    border-style: hidden;
+    border-radius: 3px;
+    opacity: .9; 
+
+
+}
+
+.body {
+    margin: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color:black;
+    background-origin: border; 
+    background:url(IMG_0659.jpeg);
+    background-size: contain;
+    padding-top: 2rem;
+    max-width: 1100px;
+    
+}
+
+.h1{ 
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: auto;
+    text-align:left;
+
+}
+
+.row {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 16px 16;
+     padding: 20px 40px;
+     color:black;
+     transition: 0.5s;
+     
+}
+
+.image-col-md-6 {
+   
+    padding-top: 5px;
+    width: 100px;
+    visibility: visible !important;
+  
+}
+
+.col-md-6{ 
+opacity: .9 ;
+background-color: aliceblue;
+padding-top: 1rem ;
+text-align: left;
+}

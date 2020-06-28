@@ -1,0 +1,73 @@
+
+ .navbar-navbar-expand-lg-navbar-light-bg-light{ 
+    background-color: rgb(205, 198, 198);
+    margin: 2rem;
+    border-color:blanchedalmond; 
+    border-style: solid;
+    border-color:rgb(205, 198, 198); 
+    color: black; 
+    margin-right: 30px;
+    opacity: .9; 
+}
+.navbar-toggler-icon{
+    margin-right: 3rem;
+}
+.navbar-nav{
+
+    box-sizing: border-box;
+    background-color: darkgray;
+    border-color:blanchedalmond; 
+    border-style: solid;
+    border-color:rgb(205, 198, 198);
+}
+
+.bg-light {
+    background-color: rgb(205, 198, 198)!important;
+    border-style: solid;
+    border-color:rgb(205, 198, 198);
+    border-radius: 3px;
+}
+
+.portfolio{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin: center;
+    color: black;
+}
+
+
+.body{ 
+    border-radius: 3%;
+    background-image:url(IMG_1673.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+}
+.container{
+    box-sizing: border-box;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border-bottom: 4rem;
+    padding-top: 3rem;
+    align-self: center;
+    padding-top: 1%;
+    background-color: whitesmoke;
+    
+    
+  
+}
+.row{
+    box-sizing: content-box;
+    text-align: center;
+    font-size: x-large;
+    align-content: center;
+
+
+}
+

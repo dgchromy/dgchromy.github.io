@@ -8,3 +8,5 @@ as for porfolio i did not have any real projects made so i added a some pictures
 all htmls are responsive. 
 
 as for my pictures i tried to create a file to store them all in but even after i changed the href they still wouldnt show up 
+
+I also didnt use alot of bootstrap.. 

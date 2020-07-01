@@ -1,3 +1,7 @@
+.html{
+    min-height: 100%;
+}
+
 header{
     box-sizing: border-box;
     background-color:rgba(245, 245, 245, 0.673); 
@@ -6,6 +10,7 @@ header{
     font-weight: 200;
     font-style: normal;
     font-size: 24px;
+    border-radius: 3px;
     opacity: .9;
     
 
@@ -28,6 +33,7 @@ header{
 
     box-sizing: border-box;
     background-color:rgba(245, 245, 245, 0.673);
+    border-color:blanchedalmond; 
     border-style: hidden;
     opacity: .9px;
    
@@ -50,8 +56,11 @@ header{
     background:url(IMG_0659.jpeg);
     background-size: contain;
     padding-top: 2rem;
-    max-width: 1100px;
-    
+    max-width: 1100px; 
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .h1{ 
@@ -68,24 +77,34 @@ header{
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    box-sizing: border-box;
     margin: 16px 16;
      padding: 20px 40px;
      color:black;
      transition: 0.5s;
+    
      
 }
 
-.image-col-md-6 {
-   
+.image-col-md-12 {
+    box-sizing: border-box;
     padding-top: 5px;
     width: 100px;
     visibility: visible !important;
+   float: left;
   
 }
 
-.col-md-6{ 
+.col-md-12{ 
 opacity: .9 ;
+;
 background-color: aliceblue;
 padding-top: 1rem ;
 text-align: left;
+}
+.footer{ 
+margin-top: auto;
+background-color: aliceblue;
+color: black;
+
 }

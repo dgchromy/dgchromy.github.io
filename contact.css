@@ -1,3 +1,7 @@
+.html{
+    height: 100%;
+}
+
 header{
     box-sizing: border-box;
     background-color: darkgray;
@@ -18,8 +22,8 @@ header{
     border-color:blanchedalmond; 
     border-style: solid;
     border-color:rgb(205, 198, 198); 
-   color: black; 
-   margin-right: 30px;
+    color: black; 
+     margin-right: 30px;
 
 }
 .navbar-toggler-icon{
@@ -43,7 +47,74 @@ header{
 
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h1{
+  text-align: center;
+}
+.contact-selection h1{
+  background: url(D942A91E-0496-4716-852A-6FBC00DC91BD.jpeg);
+  background-size: cover;
+  padding: 40px 0;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: black;
+  margin: 40px auto;
+
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+
+}
+.contact-form-text{
+  display: block;
+  width: auto;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+
+
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+
+}
+.textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+  width: 120px;
+}
+.contact-form-btn{
+  float:right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+
+
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
 .body {
+     
+    align-content: center;
     margin: auto;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     color:black;
@@ -54,84 +125,37 @@ header{
     background:url("D942A91E-0496-4716-852A-6FBC00DC91BD.jpeg") no-repeat center;
     opacity: .9;
     background-size:cover ;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-
-.h1{ 
-    font-size: 16px;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: auto;
-    text-align:left;
-
-}
-
-.row {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-*{
-   margin: 0;  
-    padding: 0; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-.contact-section{ 
-    padding: 40px;
-
-}
-.contact-section h1{
-    text-align: center;
-    color: rgba(17, 17, 21, 0.789);
-}
- .border{ 
-    width: 100px;
-    height: 10px;
-    margin: 40px auto; 
-}
-
-.contact-form{
-    max-width: 600px;
-    margin: auto;
-    padding: 0 10px;
-    overflow: hidden;
-}
-
-.contact-form-text{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 16px 0;
-     border: #111;
-     padding: 20px 40px;
-     outline: none;
-     color:black;
-     transition: 0.5s;
-    
-
-}
-.contact-form-text:focus{
-    box-shadow: 0 0 10px 4px #34495e;
-}
-textarea.contact-form-text{
-    resize: none;
-    height: 120px;
-
-}
-.contact-form-btn  {
-    display: block;
-    float: right ;
-    border: 4rem ;
-    border-top: 4px;
-    border-bottom: 4px;
-    border-radius: 1in;
-    background-color: cornflowerblue;
-    display: block;
-    opacity: .9;
-   
-}
+.container{
+  align-content: center;
+  text-align: center;
+  position: center;
+  margin: 40px auto; 
+  background: black;
+  }
 
 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    size: 1rem;
+  }
+  .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+      margin-top: auto;
+    }
+
+  .footer{ 
+    margin: 40px auto;
+    background: aliceblue;
+    color: black;
+
+    }

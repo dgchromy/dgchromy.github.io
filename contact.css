@@ -59,6 +59,7 @@ header{
 .contact-selection h1{
   background: url(images/D942A91E-0496-4716-852A-6FBC00DC91BD.jpeg);
   background-size: cover;
+  background: 100vh;
   padding: 40px 0;
 }
 .border{
@@ -158,4 +159,9 @@ header{
     background: aliceblue;
     color: black;
 
+    }
+
+    .contact-form-text {
+      box-sizing: border-box;
+      width: 24rem;
     }

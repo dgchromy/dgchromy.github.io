@@ -2,11 +2,13 @@
  .navbar-navbar-expand-lg-navbar-light-bg-light{ 
     background-color: rgb(205, 198, 198);
     margin: 2rem;
+    margin-top: 3rem;
+    margin-right: 30px;
     border-color:blanchedalmond; 
     border-style: solid;
     border-color:rgb(205, 198, 198); 
     color: black; 
-    margin-right: 30px;
+   
     opacity: .9; 
 }
 .navbar-toggler-icon{
@@ -28,53 +30,39 @@
     border-radius: 3px;
 }
 
-.portfolio{
-    padding-top: 1rem;
-    padding-bottom: .5rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-    margin: center;
-    color: black;
-}
 
 
 .body{ 
     margin: auto;
-    border-radius: 3%;
+    margin-top: 4rem;
     background-image:url(images/IMG_1673.jpeg);   
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
     max-width: 1100px;
-    min-height: 100%;
+    height: 100%;
+    align-items: center;
    
 
 }
 .container{
     box-sizing: border-box;
-    margin-top: 2rem;
-    border-radius: 2rem;
-    border-bottom: 4rem;
+    margin-top: 4rem;
     padding-top: 3rem;
-    align-content: center;
-    padding-top: 1%;
-    background-color: whitesmoke;
-    flex-grow: auto;
-    image-rendering: auto;
+    align-content: center;;
+    column-count: 3;
+    padding-bottom: 2rem;
     
     
   
 }
-.row{
-    box-sizing: content-box;
+
+
+.footer{
     text-align: center;
-    font-size: 2rem;
-    align-content: center;
-    image-rendering: auto;
-
-
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
 }
-
 

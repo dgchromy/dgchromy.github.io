@@ -55,6 +55,7 @@ header{
 
 .h1{
   text-align: center;
+  
 }
 .contact-selection h1{
   background: url(images/D942A91E-0496-4716-852A-6FBC00DC91BD.jpeg);
@@ -70,7 +71,7 @@ header{
 
 }
 .contact-form{
-  text-align: center;
+  text-align: left;
   max-width: 600px;
   margin: auto;
   padding: 0 10px;
@@ -150,10 +151,11 @@ body {
     }
 
     footer{
-      text-align: left;
+      text-align: center;
       color:whitesmoke;
       font-size: 25px;
       font-weight: 200;
+      margin-top: 5rem;
   }
 
     .contact-form-text {

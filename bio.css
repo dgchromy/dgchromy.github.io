@@ -63,10 +63,10 @@ header{
 }
 
 .h1{ 
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 24px;
+    font-weight: 200;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: auto;
     text-align:left;
 
@@ -78,9 +78,9 @@ header{
     margin-right: 10px;
     box-sizing: border-box;
     margin: 16px 16;
-     padding: 20px 40px;
-     color:black;
-     transition: 0.5s;
+    padding: 20px 40px;
+    color:black;
+    transition: 0.5s;
     
      
 }
@@ -101,9 +101,9 @@ letter-spacing: normal;
 }
 
 .footer{ 
-margin-top: auto;
-margin-right: 10rem;
-margin-left: 10rem;
-background-color: aliceblue;
-color: black;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 5rem;
 }

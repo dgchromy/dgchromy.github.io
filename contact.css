@@ -124,14 +124,15 @@ body {
     background-color: rgba(78, 78, 96, 0.598);
     padding-top: 2rem;
     max-width: 1100px;
-    background:url("images/D942A91E-0496-4716-852A-6FBC00DC91BD.jpeg") no-repeat center;
-    opacity: .9;
-    background-size:cover ;
-    min-height: 100%;
+    background:url("images/D942A91E-0496-4716-852A-6FBC00DC91BD.jpeg")center;
+    background-size:cover; 
+    /* opacity: .9; */
+   
     display: flex;
     flex-direction: column;
 }
 .container{
+  color: grey;
   align-items: center;
   font-size: 2rem;
   text-indent: 5%;
@@ -152,7 +153,7 @@ body {
 
     footer{
       text-align: center;
-      color:whitesmoke;
+      color:Grey;
       font-size: 25px;
       font-weight: 200;
       margin-top: 5rem;

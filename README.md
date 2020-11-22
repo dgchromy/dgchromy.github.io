@@ -1,12 +1,9 @@
 # dgchromy.github.io 
+Up Dated portoflio page with three projects 
 
-so with this assignment all the bootstrap i used was for my 'nav-bar'. 
+added new links to my nav bar 
 
-i also created seperate css files for each individual html file instead of usind a index.htm i save under a bio.html. 
+updated my Bio page with mission statement
 
-as for porfolio i did not have any real projects made so i added a some pictures that you can click threw some from Kauai. and one from the seattle area. 
-all htmls are responsive. 
+<img width="1792" alt="Screen Shot 2020-08-19 at 3 03 48 PM" src="https://user-images.githubusercontent.com/65515339/90695277-fc732900-e22e-11ea-86d8-e163d0a9e22b.png">
 
-as for my pictures i tried to create a file to store them all in but even after i changed the href they still wouldnt show up 
-
-I also didnt use alot of bootstrap.. 
